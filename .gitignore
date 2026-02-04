@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.env
+.DS_Store
+birthday_notifier.bat
+notification_log.json
+startup_log.txt
