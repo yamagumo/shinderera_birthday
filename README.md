@@ -148,7 +148,7 @@ if days == 0:
 
 ## 作成者
 
-自動生成
+山雲＆AI
 
 ---
 
@@ -156,23 +156,3 @@ if days == 0:
 
 ---
 
-**Git に上げる（共有）手順**
-
-最低限の手順:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: birthday notifier"
-# GitHub に新しいリポジトリを作成して origin を追加
-git remote add origin https://github.com/<your-user>/<repo>.git
-git push -u origin main
-```
-
-リポジトリ公開時の注意:
-- `.gitignore` に `.venv/` や個人設定ファイルが含まれていることを確認する（すでに追加済み）。
-- `settings.json` はユーザー固有なので公開したくない場合はコミットしないでください。
-
----
-
-必要なら私の方で `install.bat` / `install.sh`、`README.md`、`.gitignore` をさらに整備して pull-request 用の変更をまとめます。ご希望ですか？
